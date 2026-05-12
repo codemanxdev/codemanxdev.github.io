@@ -5,11 +5,11 @@
 - ☀️ I love using open source and linux.
 - :clapper: Visit my [YouTube channel](https://www.youtube.com/c/geekymon2) here.
 
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=geekymon2&show_icons=true&theme=tokyonight)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=geekymon2&theme=tokyonight)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=geekymon2&layout=compact&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=thedev-codeman&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=thedev-codeman&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=thedev-codeman&layout=compact&theme=tokyonight)
 
 <!---
-geekymon2/geekymon2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+thedev-codeman/geekymon2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
