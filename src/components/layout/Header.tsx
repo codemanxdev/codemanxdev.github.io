@@ -62,7 +62,7 @@ function Header({ contactRef }: HeaderProps) {
           <Toolbar disableGutters>
             <Icon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <Title sx={{ display: { xs: "none", md: "flex" } }} onClick={handleClick(gotoHome)}>
-              geekymon2
+              codeman
             </Title>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -106,7 +106,7 @@ function Header({ contactRef }: HeaderProps) {
             </Box>
             <Icon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
             <Title sx={{ display: { xs: "flex", md: "none" } }} onClick={handleClick(gotoHome)}>
-              geekymon2
+              codeman
             </Title>
             <Box sx={{ ml: 6, flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (

@@ -36,7 +36,7 @@ export default function AppFooter(): React.ReactElement {
               </Link>
             </Stack>
             <Typography variant="body2" color="inherit">
-              &copy; {new Date().getFullYear()} geekymon2. All rights reserved.
+              &copy; {new Date().getFullYear()} codeman. All rights reserved.
             </Typography>
           </Stack>
 
