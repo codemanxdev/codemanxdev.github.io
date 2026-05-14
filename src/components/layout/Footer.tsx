@@ -25,7 +25,7 @@ export default function AppFooter(): React.ReactElement {
           <Stack spacing={2}>
             <Stack direction="row" spacing={1}>
               <Link
-                href="https://www.facebook.com/geekymon2/"
+                href="https://www.facebook.com/codemanxdev/"
                 aria-label="Facebook"
                 color="inherit"
               >

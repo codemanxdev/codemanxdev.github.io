@@ -1,5 +1,6 @@
 const username: string = import.meta.env.VITE_GITHUB_USERNAME;
-const token: string = import.meta.env.VITE_GITHUB_TOKEN;
+const encodedToken: string = import.meta.env.VITE_GITHUB_TOKEN;
+const token: string = atob(encodedToken);
 
 if (!username) throw new Error("Missing VITE_GITHUB_USERNAME");
 if (!token) throw new Error("Missing VITE_GITHUB_TOKEN");
