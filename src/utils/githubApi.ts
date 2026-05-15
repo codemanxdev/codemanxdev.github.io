@@ -834,40 +834,40 @@ interface GraphQLResponse {
   errors?: { message: string }[];
 }
 
-export const fetchGitHubStats = async (): Promise<GitHubStats> => {
-  const query = `
-    query ($username: String!) {
-      user(login: $username) {
-        login
-        name
-        bio
-        followers { totalCount }
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
-          totalCount
-          nodes {
-            name
-            description
-            url
-            stargazerCount
-            forkCount
-            primaryLanguage { name }
-            defaultBranchRef {
-              target {
-                ... on Commit {
-                  history { totalCount }
-                }
-              }
-            }
-          }
-        }
-        contributionsCollection {
-          totalCommitContributions
-          totalPullRequestContributions
-          totalIssueContributions
-        }
-      }
-    }
-  `;
+export const fetchGitHubStats = (): GitHubStats => {
+//   const query = `
+//     query ($username: String!) {
+//       user(login: $username) {
+//         login
+//         name
+//         bio
+//         followers { totalCount }
+//         repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+//           totalCount
+//           nodes {
+//             name
+//             description
+//             url
+//             stargazerCount
+//             forkCount
+//             primaryLanguage { name }
+//             defaultBranchRef {
+//               target {
+//                 ... on Commit {
+//                   history { totalCount }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//         contributionsCollection {
+//           totalCommitContributions
+//           totalPullRequestContributions
+//           totalIssueContributions
+//         }
+//       }
+//     }
+//   `;
 
   // const response = await fetch("https://api.github.com/graphql", {
   //   method: "POST",
@@ -935,6 +935,6 @@ export const fetchGitHubStats = async (): Promise<GitHubStats> => {
   };
 };
 
-function isGraphQLResponse(obj: unknown): obj is GraphQLResponse {
-  return typeof obj === "object" && obj !== null && ("data" in obj || "errors" in obj);
-}
+// function isGraphQLResponse(obj: unknown): obj is GraphQLResponse {
+//   return typeof obj === "object" && obj !== null && ("data" in obj || "errors" in obj);
+// }
