@@ -31,7 +31,7 @@ export default function AppFooter(): React.ReactElement {
               >
                 <FacebookIcon />
               </Link>
-              <Link href="https://x.com/geekymon2/" aria-label="X/Twitter" color="inherit">
+              <Link href="https://x.com/codemanxdev" aria-label="X/Twitter" color="inherit">
                 <XIcon />
               </Link>
             </Stack>
